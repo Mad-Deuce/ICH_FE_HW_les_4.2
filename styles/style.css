@@ -1,0 +1,40 @@
+.class-one {
+    width: 50dvw;
+    height: 50dvh;
+    /* background-color: blue; */
+}
+
+.class-two {
+    width: 100px;
+    height: 2rem;
+    font-size: 5em;
+    background-color: magenta;
+}
+
+body {
+    /* background-image: url(https://fsd.ch/wp-content/uploads/2022/08/Social-Media.png);
+    background-size:contain ;
+    background-repeat:no-repeat ;
+    width: 70dvw;
+    height: 70dvh; */
+}
+
+p {color: black;}
+
+@media   (max-width: 1500px) {
+
+    p {color: red}
+    
+}
+
+@media  (max-width: 1000px) {
+
+    p {color: green}
+    
+}
+
+@media   (max-width: 500px) {
+
+    p {color: magenta}
+    
+}
